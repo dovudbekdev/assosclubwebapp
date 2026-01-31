@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     async function submitForm() {
         verifyCardPage.classList.remove("active")
         startPage.classList.add("active")
+        
 
         const userId = localStorage.getItem("user_id")
 
